@@ -7,4 +7,5 @@ gsl +gcc7
 openblas +gcc7
 hdf5 +cxx +gcc7 +openmpi
 fftw-3-single
+postgresql10
 gdal +gcc7 +hdf5 +openmpi +sqlite3 +spatialite

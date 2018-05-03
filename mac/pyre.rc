@@ -1,0 +1,7 @@
+# pyre/altar rc
+export TOOL_PATH=${HOME}/tools
+export PATH=${TOOL_PATH}/bin:$PATH
+export LD_LIBRARY_PATH=${TOOL_PATH}/lib:$LD_LIBRARY_PATH
+export PYTHONPATH=${TOOL_PATH}/packages:$PYTHONPATH
+export MM_INCLUDES=${TOOL_PATH}/include
+export MM_LIBPATH=${TOOL_PATH}/lib

@@ -1,0 +1,10 @@
+gmake
+git +bash_completion
+python36 +readline
+gcc7
+openmpi-gcc7 +fortran +threads
+gsl +gcc7
+openblas +gcc7
+hdf5 +cxx +gcc7 +openmpi
+fftw-3-single
+gdal +gcc7 +hdf5 +openmpi +sqlite3 +spatialite

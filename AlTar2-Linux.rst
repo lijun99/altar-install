@@ -35,12 +35,12 @@ Use SPACK to install required packages
 Use EasyBuild to install required packages 
 ------------------------------------------
 
-Use the bootstrapping method to install Easybuild, 
-http://easybuild.readthedocs.io/en/latest/Installation.html#bootstrapping-procedure 
+Use the `bootstrapping method <http://easybuild.readthedocs.io/en/latest/Installation.html#bootstrapping-procedure/>`_ to install Easybuild, 
 
 If you are a system user, use a ``EASYBUILD_PREFIX=/opt/apps``, otherwise, use ``$HOME/.local/easybuild``. 
 
-The following guides are based on ``foss-2018b`` toolchain (Free and Open Source Software).  ::
+The following guides are based on ``foss-2018b`` toolchain (Free and Open Source Software).  
+::
       foss-2018b.eb   # including gcc-7, openmpi, openblas 
       Python-3.7.0-foss-2018b.eb
       netCDF-4.6.1-foss-2018b.eb

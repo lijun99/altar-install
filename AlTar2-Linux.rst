@@ -32,6 +32,34 @@ Use SPACK to install required packages
 `Spack <https://spack.io/>`_ 
 
 
+Use EasyBuild to install required packages 
+------------------------------------------
+
+Use the bootstrapping method to install Easybuild, 
+http://easybuild.readthedocs.io/en/latest/Installation.html#bootstrapping-procedure 
+
+If you are a system user, use a ``EASYBUILD_PREFIX=/opt/apps``, otherwise, use ``$HOME/.local/easybuild``. 
+
+The following guides are based on ``foss-2018b`` toolchain (Free and Open Source Software).  
+
+::
+      foss-2018b.eb   # including gcc-7, openmpi, openblas 
+      Python-3.7.0-foss-2018b.eb
+      netCDF-4.6.1-foss-2018b.eb
+      GSL-2.4-GCCcore-7.3.0.eb (needs some changes)
+      PostgreSQL (needs some changes)
+      
+To search a package
+::
+      eb -S package
+      
+To install packages
+::
+      eb package(s) -robot 
+    
+Ubuntu (recommends 18.04)
+-------------------------
+
 
 Download config/pyre/altar
 ~~~~~~~~~~~~~~~~~~~~~~~~~~

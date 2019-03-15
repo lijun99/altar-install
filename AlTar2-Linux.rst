@@ -14,7 +14,7 @@ List of required libraries
 --------------------------
 To compile altar/pyre, the following software or libraries are required ::
 
-      python3  >= 3.6 (**must**)
+      python3  >= 3.7 (**must**)
       gcc >= gcc6 (**must**)
       gsl
       hdf5
@@ -120,7 +120,7 @@ Create a ``config.def`` file under ``${HOME}/tools/pyre/.mm`` directory ::
       MPI_LIBDIR = $(MPI_DIR)/lib
       MPI_VERSION = openmpi
 
-      PYTHON = python3.6m
+      PYTHON = python3.7m
       PYTHON_DIR = $(APPS_DIR)/python3
       PYTHON_INCDIR = $(PYTHON_DIR)/include/$(PYTHON)
       PYTHON_LIB = $(PYTHON)
@@ -194,7 +194,7 @@ Create a file ``${HOME}/tools/altar/.mm/config.mm`` (please change ``APPS_DIR`` 
       openblas.dir = ${APPS_DIR}/openblas 
       pyre.dir = ${HOME}/tools 
       python.dir = ${APPS_DIR}/python3
-      python.version = 3.6
+      python.version = 3.7
       # end of file
 
 

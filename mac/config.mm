@@ -29,7 +29,7 @@ openblas.dir = /opt/local
 pyre.version = 1.0
 pyre.dir = ${HOME}/tools
 
-python.version = 3.6
+python.version = 3.7
 python.dir = /opt/local/library/frameworks/python.framework/versions/$(python.version)
 
 # end of file

@@ -35,3 +35,10 @@ Additional conda packages needed::
     conda install gsl
     conda install -c conda-forge openmpi
 
+Issues
+~~~~~~
+
+::
+
+    export OMPI_MCA_btl_vader_single_copy_mechanism=none
+
